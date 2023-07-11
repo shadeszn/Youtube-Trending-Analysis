@@ -33,8 +33,10 @@ __6. Creating dashboard / visualization:__ Using AWS QuickSight we have transfor
 ## Analysis Samples
 
 ![image](https://github.com/shadeszn/Youtube-Trending-Analysis/assets/60690784/6171174c-b171-41d9-98f2-e4ca67168a1a)
-<p style="text-align: center;">Text_content</p>
-A visual showing the average views of all trending video categories in each region
+
+![image](https://github.com/shadeszn/Youtube-Trending-Analysis/assets/60690784/c0fb7966-d6c6-4dde-a7ce-a01b0311ae6c)
+
+![image](https://github.com/shadeszn/Youtube-Trending-Analysis/assets/60690784/00f9ab7c-e06a-4d35-b9d6-8e99046891b3)
 
 ## Tech Stack
 
