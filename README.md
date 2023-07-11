@@ -11,7 +11,9 @@ The data used for this project has been taken from the [Trending YouTube Video S
 
 ## Workflow
 __1. Data ingestion:__ The raw dataset from Kaggle repository was downloaded to a local source. A new bucket was created in AWS S3 and the data was uploaded to the bucket from the local source via AWS Command Line Interface (CLI).
+
 __2. Data processing:__ The data in our bucket was in a semi-structured JSON format. This type of data is not suitable for querying operations. In order to process this raw data, we have created a Python script in AWS Lambda that will convert this JSON file to an Apache Parquet file.  AWS Lambda functions are often used as part of an Extract, Transform, Load (ETL) process or for data integration tasks. By converting JSON to Parquet within Lambda, we can transform the data into a more optimized format before storing it in a data lake or data warehouse. Services such as AWS Glue and Athena natively support Parquet as an input format. Processing this data helps to seamlessly integrate our data with these services and take advantage of the advanced querying capabilities. The cleaned data was then stored in a separate S3 bucket.
+
 __3. Metadata cataloging:__ We have used AWS Glue crawler to scan and discover the CSV files from the raw data S3 bucket source. Glue is able to understand and extract meaningful information from the data, such as the file format, structure, data types and relation between tables. This is collectively known as metadata. The metadata makes it easier to analyze the available data. We can set triggers for the Crawler to run whenever new data is added to the bucket, so that we can maintain an up-to-date catalog of our data.
 
 ## Tech Stack
