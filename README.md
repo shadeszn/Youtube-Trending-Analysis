@@ -30,6 +30,12 @@ __5. Preparing data for analytics:__ At this stage we have our cleaned YouTube t
 
 __6. Creating dashboard / visualization:__ Using AWS QuickSight we have transformed the data into meaningful and valuable insights in the form of different graphs, charts, figures etc. The dashboard can be found [here](https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/997231336416/dashboards/741ac7f2-7995-4367-942d-ea778ea6e65e?directory_alias=ankurbiswas).
 
+## Analysis Samples
+
+![image](https://github.com/shadeszn/Youtube-Trending-Analysis/assets/60690784/6171174c-b171-41d9-98f2-e4ca67168a1a)
+<p style="text-align: center;">Text_content</p>
+A visual showing the average views of all trending video categories in each region
+
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
