@@ -2,7 +2,7 @@
 ## Introduction
 In this project we will do a deep dive into the YouTube Trending video data and draw comparisons and valuable insights from it. To determine the year’s top-trending videos, YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes). Trending videos need not be the most-viewed videos overall for the calendar year. While studying this data we will be able to look into various information, such as the top categories of the trending videos, the regional preferences in videos, the average amount of likes, dislikes and views on a trending video etc.
 
-# Use Cases
+## Use Cases
 Analyzing YouTube trending video data can provide valuable insights into popular content, viewer preferences, engagement patterns, and emerging trends. Here are some use cases where analyzing YouTube trending video data can be beneficial:
 
 * Analyzing YouTube trending video data can help content creators and publishers understand the types of videos that resonate with viewers. By examining the attributes, such as video length, title structure, tags, and thumbnails, of trending videos, creators can optimize their own content to increase visibility, engagement, and viewership.
