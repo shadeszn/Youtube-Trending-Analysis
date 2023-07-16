@@ -28,7 +28,7 @@ __4. ETL processing:__ In the next step we have created a job in AWS Glue that w
 
 __5. Preparing data for analytics:__ At this stage we have our cleaned YouTube trending regional data and the statistical reference data both in Parquet format. These two tables need to be joined for using in ananlytics. The INNER JOIN operation between these was performed through a Glue Job and the output table was stored in a separate bucket for analytics, ready to use.
 
-__6. Creating dashboard / visualization:__ Using AWS QuickSight we have transformed the data into meaningful and valuable insights in the form of different graphs, charts, figures etc. The dashboard can be found [here](https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/997231336416/dashboards/741ac7f2-7995-4367-942d-ea778ea6e65e?directory_alias=ankurbiswas).
+__6. Creating dashboard / visualization:__ Using AWS QuickSight we have transformed the data into meaningful and valuable insights in the form of different graphs, charts, figures etc. The dashboard can be found [here](https://github.com/shadeszn/Youtube-Trending-Analysis/blob/main/analytics-dashboard.pdf).
 
 ## Analysis Samples
 
